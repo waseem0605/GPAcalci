@@ -12,7 +12,7 @@ The GPAcalci Website is a simple and efficient tool designed to help students ca
 
 ## How to Use
 
-1. Access the GPA Calculator Website at [GPAcalci]([http://www.gpacalculator.com](https://gpa-calci.netlify.app)).
+1. Access the GPA Calculator Website at ([GPAcalci](https://gpa-calci.netlify.app)).
 
 2. Enter the grade and credits for each of your courses.
 
