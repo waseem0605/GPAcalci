@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPA Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="./Assets/icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+  <div class="content-wrapper">
+    <div class="container">
+
+    <div class="logo">
+      <img src="./Assets/logo.png" alt="Logo">
+    </div>
+
+    <h1>GPA Calculator</h1>
+
+    <form id="gpaForm">
+      <div class="input-group">
+        <label for="credits">Credits:</label>
+        <select id="credits" required>
+          <option value="" disabled selected>Select Credits</option>
+          <option value="4">4</option>
+          <option value="3">3</option>
+          <option value="2">2</option>
+          <option value="1">1</option>
+        </select>
+      </div>
+
+      <div class="input-group">
+        <label for="grade">Grade:</label>
+        <select id="grade" required>
+          <option value="" disabled selected>Select Grade</option>
+          <option value="10.0">O</option>
+          <option value="9.0">A+</option>
+          <option value="8.0">A</option>
+          <option value="7.0">B+</option>
+          <option value="6.0">B</option>
+          <option value="5.0">C</option>
+        </select>
+      </div>
+
+      <button type="submit">Add Course</button>
+      
+    </form>
+
+
+    <div id="results">
+      <h2>GPA: <span id="gpaValue">0.00</span></h2>
+      <ul id="coursesList"></ul>
+      <button1 id="deleteLastCourse">Delete Last Course</button1>
+    </div>
+  </div>
+
+  <a href="https://drive.google.com/drive/folders/1ObOY3Zr_BUyRqw_SWek0wSH0msnEHZae?usp=share_link" target="_blank" class="redirect-link">
+    <i class="fas fa-external-link-alt"> CREDITS INFO</i>
+  </a>
+
+  <footer>
+    <p>GPA Calculator &copy; <span id="currentYear"></span> | Mohamed Waseem</p>
+    <div class="footer-links">
+      <a href="https://www.instagram.com/waseem_0605/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://wa.me/9150830490">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="htthttps://www.linkedin.com/in/mohamed-waseem-%E2%80%8E-a52727228ps://github.com/waseem0605" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/waseem0605">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="mailto:mohamedwaseem.a2021cseb@sece.ac.in?subject=GPA Calculator&body=Hi waseem...!">
+        <i class="far fa-envelope"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
