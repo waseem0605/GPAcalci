@@ -164,7 +164,7 @@ footer p {
   flex: 1;
 }
 
-.redirect-link {
+/* .redirect-link {
   position: absolute;
   bottom: 100px;
   right: 10px;
@@ -177,7 +177,7 @@ footer p {
 
 .redirect-link:hover {
   color: #0056b3;
-}
+} */
 
 @keyframes scaleIn {
   from { transform: scale(0.8); opacity: 0; }
